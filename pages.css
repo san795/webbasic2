@@ -1,0 +1,91 @@
+header { background-color: #FFFFFF;
+		color: #00005D;
+		padding: 200px 200px 200px 200px;
+		background-repeat: no-repeat;
+		background-image: url(logo.jpg);
+		background-size: contain;
+		}
+		
+.header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #a7abb0;
+            color: #fff;
+        }
+
+        .logo {
+            width: 500px; /* Adjust the width as needed */
+        }
+
+        .nav {
+            list-style: none;
+            display: flex;
+            gap: 200px;
+        }
+
+        .nav li {
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: #0959db;
+			font-size: 500%;
+        }
+
+.blue-rectangle {
+            background-color: #0959db;
+            text-align: center;
+            padding: 20px;
+			color: #FFFFFF;
+        }
+ 
+ .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .grid-item {
+            background-color: #ccc;
+            padding: 20px;
+            text-align: center;
+			color: #0959db;
+        }
+
+        .grid-item img {
+            max-width: 100%;
+            height: auto;
+        }
+
+body {
+            background-color: #f0f0f0; /* Grey color */
+        }
+
+        /* Add CSS for the 5x5 table */
+        .table-container {
+            margin: 20px auto; /* Center the table */
+            background-color: white; /* White background for the table container */
+            padding: 20px; /* Add padding for spacing */
+            border-radius: 10px; /* Rounded corners for the container */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+            width: 80%; /* Set the width of the container */
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
